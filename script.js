@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
         statusText.textContent = "AI sedang berpikir...";
         
         // GANTI URL INI DENGAN URL BACKEND ANDA
-        const backendUrl = 'https://your-backend-url.up.railway.app/api/chat'; 
+        const backendUrl = 'proyek-ai-backend-production.up.railway.app/api/chat'; 
 
         try {
             const response = await fetch(backendUrl, {
